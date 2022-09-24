@@ -174,9 +174,9 @@ def trip_duration_stats(df):
     # TO DO: display total travel time
     # Use SUM to calculate total trip duration and divide by 60 to convert to minutes
     
-    total_travel_time = df['Trip Duration'].sum()/60
+    total_travel_time = df['Trip Duration'].sum()/60/60
     result = '{:.2f}'.format(total_travel_time)
-    print(f'\nThe total trip duration is: {result} minutes')
+    print(f'\nThe total trip duration is: {result} hours')
 
     # TO DO: display mean travel time
     # Use MEAN to calculate average travel time and divide by 60 to convert to minutes
