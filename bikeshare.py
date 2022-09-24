@@ -145,6 +145,7 @@ def station_stats(df):
     start_time = time.time()
 
     # TO DO: display most commonly used start station
+    # Mode used to display most commonly used start station
 
     most_common_start_station = df['Start Station'].mode()[0]
     print(f'\nThe most common start station is: {most_common_start_station}')
