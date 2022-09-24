@@ -37,6 +37,7 @@ def get_filters():
             break
 
     # TO DO: get user input for month (all, january, february, ... , june)
+    # User can input 'All' to choose all months.
     
     while True:
         month = input('Tell me which month you would like to analyse: "January", "February", "March", "April", "May", "June", or "all" if you can\'t decide \n' ).lower()
@@ -48,6 +49,7 @@ def get_filters():
 
 
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
+    # User can input 'All' to select all days.
 
     while True:
         day = input('What day would you like to analyse: "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday" or "all" if you can\'t decide \n' ).lower()
